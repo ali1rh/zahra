@@ -1,0 +1,131 @@
+.flex{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 300px;
+}
+.icon{
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ec6f69;
+}
+
+
+.textTemp{
+    color: black;
+}
+
+@font-face {
+  font-family: 'iransans';
+  src: url(fonts/IRANSansXV.ttf) format('truetype');
+}
+body {
+	background: #1690A7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: iransans;
+	box-sizing: border-box;
+}
+form {
+	width: 320px;
+	/*solid #ccc;*/
+	/*border: 15px solid #ccc ;*/
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+.EHH__input::placeholder{
+    float:right;
+}
+
+h2 {
+    /*font-size : 18px;*/
+	text-align: center;
+	margin-bottom: 24px;
+}
+p{
+    font-size: 14px;
+    text-align: right;
+
+}
+
+input {
+    
+    direction: rtl;
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+label {
+        float: right;
+
+	color: #888;
+	font-size: 18px;
+	padding: 10px;
+}
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+    font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+a {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+a:hover{
+	opacity: .7;
+}
